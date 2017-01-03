@@ -47,9 +47,9 @@ export HADOOP_HOME=/home/hduser/hadoop-2.7.3/hadoop-2.7.3
 But of course, the paths depends on the linux distribution, java and hadoop version you use. 
 
 ##ls: `.': No such file or directory  
-When you finally started your Hadoop and can't wait to do $hadoop hdfs -ls to see what's in the HDFS, you might get "ls: `.': No such file or directory " from your lovely terminal.  
+When you finally started your Hadoop and can't wait to do $hdfs dfs -ls to see what's in the HDFS, you might get "ls: `.': No such file or directory " from your lovely terminal.  
 Don't panic. It's just because there isn't anything in it yet.  
-Do $hadoop hdfs -mkdir -p /user/[current login user] to make a directory in HDFS and it should be fine.
+Do $hdfs dfs -mkdir -p /user/[current login user] to make a directory in HDFS and it should be fine.
 
 ##Hadoop streaming failed  
 This happens mostly because people forget to make the mapper and reducer file executable.  
