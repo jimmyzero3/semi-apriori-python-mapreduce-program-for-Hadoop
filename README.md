@@ -14,3 +14,7 @@ Many thanks to him.
 3. If the job is done successfully, download the part-00000 file from your output directory in HDFS.
 
 4. Run $sort -k2 -n -r part-00000 >> [The path you wish]/MapRedSorted_n1_top100, then manually make an top 100 list by deleting lines after line 100. (Come on, don't be lazy.)
+
+5. Repeat step 2 to 4, just remember to change mapper to proper .py file corresponding to the n-K job you are going to do.  
+For example, use Apriori_mapper_n2.py for 2-item frequent pattern search. Remember to change your top 100 list name too.(MapRedSorted_n2_top100, MapRedSorted_n3_top100.......)  
+Also don't forget to set the file path to your top 100 list in line 9 of every mapper file.
