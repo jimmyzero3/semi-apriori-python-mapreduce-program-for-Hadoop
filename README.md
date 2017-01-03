@@ -14,7 +14,7 @@ Many thanks to him.
 
 2. Do $sudo chmod +x [all mapper and reducer files] to make them executable.
 
-3. Run the n1 mapreduce job using Apriori_mapper.py as mapper and Apriori_reducer.py as reducer.
+3. Run the n1 mapreduce job on Hadoop using Apriori_mapper.py as mapper and Apriori_reducer.py as reducer.
 
 4. If the job is done successfully, download the part-00000 file from your output directory in HDFS.
 
