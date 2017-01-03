@@ -19,9 +19,9 @@ Many thanks to him.
 4. Run $sort -k2 -n -r part-00000 >> [The path you wish]/MapRedSorted_n1_top100, then manually make an top 100 list by deleting lines after line 100. (Come on, don't be lazy.)  
 You should get something like this:  
   
-Item1	12345  
-Item2	9999  
-Item3	4567  
+Item1&nbsp;&nbsp;&nbsp;&nbsp;12345  
+Item2&nbsp;&nbsp;&nbsp;&nbsp;9999  
+Item3&nbsp;&nbsp;&nbsp;&nbsp;4567  
 ...  
 ...  
   
