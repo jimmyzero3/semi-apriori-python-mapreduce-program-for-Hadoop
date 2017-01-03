@@ -39,8 +39,8 @@ As I only tried Hadoop on my linux machine, these tips are mostly for linux user
 1. ##Java_Home and Hadoop_Home environment variable not set properly.  
 Check .bashrc file under your home directory(It's most likely hidden by default), it should contain lines like:  
 
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
-export HADOOP_HOME=/home/hduser/hadoop-2.7.3/hadoop-2.7.3
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64  
+export HADOOP_HOME=/home/hduser/hadoop-2.7.3/hadoop-2.7.3  
 
 But of course, the paths depends on the linux distribution, java and hadoop version you use. 
 
