@@ -12,11 +12,13 @@ Plain text file with Items seperated by space.
 For beginners, please check Michael G. Noll's [Running Hadoop on Ubuntu Linux (Single-Node Cluster)](http://www.michael-noll.com/tutorials/running-hadoop-on-ubuntu-linux-single-node-cluster/) and [Writing an Hadoop MapReduce Program in Python](http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/). Those are great tutorials and my code are mostly edit vesion of his.  
 Many thanks to him.
 
-2. Run the n1 mapreduce job using Apriori_mapper.py as mapper and Apriori_reducer.py as reducer.
+2. Do $sudo chmod +x [all mapper and reducer files] to make them executable.
 
-3. If the job is done successfully, download the part-00000 file from your output directory in HDFS.
+3. Run the n1 mapreduce job using Apriori_mapper.py as mapper and Apriori_reducer.py as reducer.
 
-4. Run $sort -k2 -n -r part-00000 >> [The path you wish]/MapRedSorted_n1_top100, then manually make an top 100 list by deleting lines after line 100. (Come on, don't be lazy.)  
+4. If the job is done successfully, download the part-00000 file from your output directory in HDFS.
+
+5. Run $sort -k2 -n -r part-00000 >> [The path you wish]/MapRedSorted_n1_top100, then manually make an top 100 list by deleting lines after line 100. (Come on, don't be lazy.)  
 You should get something like this:  
   
 Item1&nbsp;&nbsp;&nbsp;&nbsp;12345  
@@ -51,4 +53,4 @@ Do $hadoop hdfs -mkdir -p /user/[current login user] to make a directory in HDFS
 
 ##Hadoop streaming failed  
 This happens mostly because people forget to make the mapper and reducer file executable.  
-Do $sudo chmod -x [mapper file or reducer file] to make them executable.
+Do $sudo chmod +x [mapper file or reducer file] to make them executable.
