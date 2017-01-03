@@ -13,4 +13,4 @@ Many thanks to him.
 
 3. If the job is done successfully, download the part-00000 file from your output directory in HDFS.
 
-4. Run $sort -k2 -n -r part-00000 >> '[The path you wish]'/MapRedSorted_n1_top100, then manually make an top 100 list by deleting lines after line 100. (Come on, don't be lazy.)
+4. Run $sort -k2 -n -r part-00000 >> [The path you wish]/MapRedSorted_n1_top100, then manually make an top 100 list by deleting lines after line 100. (Come on, don't be lazy.)
