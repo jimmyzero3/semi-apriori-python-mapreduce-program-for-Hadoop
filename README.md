@@ -37,6 +37,7 @@ Also don't forget to set the file path to your top 100 list in line 9 of every m
 
 Setting up Hadoop and trying to run a job successfully might be quite frustrating even if you followed all steps in the tutorial, so I'll make a list of possible problems that people might encounter.  
 As I only tried Hadoop on my linux machine, these tips are mostly for linux users.  
+(I'm currently using hadoop-2.7.3)
 
 ##Java_Home and Hadoop_Home environment variable not set properly.  
 Check .bashrc file under your home directory(It's most likely hidden by default), it must contain lines like:  
