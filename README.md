@@ -37,7 +37,7 @@ Setting up Hadoop and trying to run a job successfully might be quite frustratin
 As I only tried Hadoop on my linux machine, these tips are mostly for linux users.  
 
 ##Java_Home and Hadoop_Home environment variable not set properly.  
-Check .bashrc file under your home directory(It's most likely hidden by default), it should contain lines like:  
+Check .bashrc file under your home directory(It's most likely hidden by default), it must contain lines like:  
 
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64  
 export HADOOP_HOME=/home/hduser/hadoop-2.7.3/hadoop-2.7.3  
@@ -51,4 +51,4 @@ Do $hadoop hdfs -mkdir -p /user/[current login user] to make a directory in HDFS
 
 ##Hadoop streaming failed  
 This happens mostly because people forget to make the mapper and reducer file executable.  
-Do $sudo chmod -x [file] to make executable.
+Do $sudo chmod -x [mapper file or reducer file] to make them executable.
