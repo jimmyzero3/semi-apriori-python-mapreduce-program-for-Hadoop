@@ -19,12 +19,12 @@ Many thanks to him.
 4. Run $sort -k2 -n -r part-00000 >> [The path you wish]/MapRedSorted_n1_top100, then manually make an top 100 list by deleting lines after line 100. (Come on, don't be lazy.)  
 You should get something like this:  
   
-Item1	12345
-Item2	9999
-Item3	4567
-...
-...
-
+Item1	12345  
+Item2	9999  
+Item3	4567  
+...  
+...  
+  
 
 5. Repeat step 2 to 4, just remember to change mapper to proper .py file corresponding to the n-K job you are going to do.  
 For example, use Apriori_mapper_n2.py for 2-item frequent pattern search.   
