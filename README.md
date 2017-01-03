@@ -31,7 +31,7 @@ For example, use Apriori_mapper_n2.py for 2-item frequent pattern search.
 Remember to change your top 100 list name too.(MapRedSorted_n2_top100, MapRedSorted_n3_top100.......)  
 Also don't forget to set the file path to your top 100 list in line 9 of every mapper file.
 
-# Some problem you might encounter using Hadoop
+# Some problems you might encounter using Hadoop
 
 Setting up Hadoop and trying to run a job successfully might be quite frustrating even if you followed all steps of the tutorial, so I'll make a list of possible problems that people might encounter.  
 As I only tried Hadoop on my linux machine, these tips are mostly for linux users.  
