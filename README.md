@@ -2,7 +2,7 @@
 
 This is a simple python mapreduce program aiming to find n-K top 100 frequent patterns.  
 I'm currently a student studying data science so I tried to make things more comprehensible to other beginners like me.  
-
+Uses Hadoop 2.7.3 and Python 2.7.
 # Input
 Plain text file with Items seperated by space.
 
