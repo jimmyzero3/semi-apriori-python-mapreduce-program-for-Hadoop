@@ -3,10 +3,22 @@
 This is a simple python mapreduce program aiming to find n-K top 100 frequent patterns.  
 I'm currently a student studying data science so I tried to make things more comprehensible to other beginners like me.  
 Uses Hadoop 2.7.3 and Python 2.7.
+
+
+# What is [Aprioiri](https://en.wikipedia.org/wiki/Apriori_algorithm) and why my code is SEMI-Apriori
+
+Apriori is an algorithm for finding frequent patterns.  
+The famous "[beers and diapers](https://blog.patternbuilders.com/2011/03/02/tales-of-beers-and-diapers/)" thing is a great example of what apriori does.  
+
+The major difference between my code and apriori is that I do not use the concept of "support" and "confidence".  
+What my code does is finding top 100 item patterns and frequent patterns of their subsets.
+
+ 
+
 # Input
 Plain text file with Items seperated by space.
 
-#Configuration
+# Configuration
 No special configs needed, only some path changes in python file and renaming output files(Check step 5 and 6 in usage.)
 
 # Usage
