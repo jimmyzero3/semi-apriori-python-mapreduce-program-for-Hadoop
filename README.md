@@ -5,7 +5,7 @@ I'm currently a student studying data science so I tried to make things more com
 Uses Hadoop 2.7.3 and Python 2.7.
 
 
-# What is [Aprioiri](https://en.wikipedia.org/wiki/Apriori_algorithm) and why my code is SEMI-Apriori
+# What is [Aprioiri](https://en.wikipedia.org/wiki/Apriori_algorithm) and Why My Code is SEMI-Apriori
 
 Apriori is an algorithm for finding frequent patterns.  
 The famous "[beers and diapers](https://blog.patternbuilders.com/2011/03/02/tales-of-beers-and-diapers/)" thing is a great example of what apriori does.  
